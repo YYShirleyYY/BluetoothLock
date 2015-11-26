@@ -1,0 +1,73 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0">
+    
+    <TableRow>
+        
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="好友列表"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="权限管理"
+            android:textSize="25sp"/>
+    </TableRow>    
+        
+    <TableRow >
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/user1"
+            android:layout_height="wrap_content"
+            android:text="授权"
+            android:textSize="20sp"/>          
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="1234"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/user2"
+            android:layout_height="wrap_content"
+            android:text="授权"
+            android:textSize="20sp"/>          
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="12345"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/user3"
+            android:layout_height="wrap_content"
+            android:text="授权"
+            android:textSize="20sp"/>          
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="shirley3"
+            android:textSize="20sp"/>
+        <CheckBox
+            android:id="@+id/user4"
+            android:layout_height="wrap_content"
+            android:text="授权"
+            android:textSize="20sp"/>          
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:id="@+id/test"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textSize="20sp"/>
+                 
+    </TableRow>
+    
+    
+    
+</TableLayout>
